@@ -25,6 +25,7 @@ public class DynamicElement {
 //		WebDriverWait wait = new WebDriverWait (driver, Duration.ofSeconds(100));
 //		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(@class,'_6lth')]"))).click();
 		driver.findElement((By.xpath("//button[contains(@class,'_6lth')]"))).click();
+		System.out.println("edit test");
 
 		
 	}
